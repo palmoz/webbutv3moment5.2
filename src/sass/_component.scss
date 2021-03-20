@@ -16,9 +16,20 @@ Other reusable components
 
 // Button
 
-//Testa byta färg på knappen via testvariabel
+button {
+    background-color: $btncolor;
+    color: $btntextcolor;
+    border-radius: 3px;
+    padding: 5px;
+}
 
-//Ändra knappfärgar genom att justera $test variabeln
+
+
+// Link
+
+a {
+    color: $link-color;
+}
 
 
 
